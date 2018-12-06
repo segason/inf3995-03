@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:showIn="@layout/list_music">
+
+    <RelativeLayout
+        android:id="@+id/view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_row_background">
+
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="@dimen/ic_delete"
+            android:layout_height="@dimen/ic_delete"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/padd_10"
+            android:contentDescription="delete_icon"
+            android:src="@drawable/ic_delete" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/padd_10"
+            android:layout_toStartOf="@id/delete_icon"
+            android:text="@string/supprimer"
+            android:textColor="@color/other_music_in_list"
+            android:textSize="@dimen/little_text" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="@dimen/padd_10">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="@dimen/thumbnail"
+            android:layout_height="@dimen/thumbnail"
+            android:layout_marginEnd="@dimen/activity_padding_horizontal"
+            android:contentDescription="music_icon"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_music" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/thumbnail"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="@integer/max_line_music_item"
+            android:textSize="@dimen/medium_text" />
+
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@id/thumbnail"
+            android:textSize="@dimen/medium_text" />
+
+        <TextView
+            android:id="@+id/suggest_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37dp"
+            android:layout_toEndOf="@id/thumbnail"
+            android:textSize="@dimen/medium_text" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ip_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_toEndOf="@id/thumbnail"
+            android:textSize="@dimen/little_text" />
+
+        <TextView
+            android:id="@+id/mac_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@id/thumbnail"
+            android:textSize="@dimen/little_text" />
+
+        <TextView
+            android:id="@+id/id_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="37dp"
+            android:layout_toEndOf="@id/thumbnail"
+            android:textSize="@dimen/little_text"/>
+
+        <ImageView
+            android:id="@+id/playing"
+            android:layout_width="@dimen/ic_delete"
+            android:layout_height="@dimen/ic_delete"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/padd_10"
+            android:src="@drawable/ic_music_playing" />
+
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="identification">http://132.207.89.35:80/usager/identification</string>
+    <string name="list_music">http://132.207.89.35:80/usager/file/</string>
+    <string name="list_users">http://132.207.89.35:80/superviseur/usager</string>
+    <string name="delete_music">http://132.207.89.35:80/usager/chanson/</string>
+    <string name="send_music">http://132.207.89.35:80/usager/chanson/</string>
+    <string name="list_music_admin">http://132.207.89.35:80/superviseur/file</string>
+    <string name="log_admin">http://132.207.89.35:80/superviseur/login/</string>
+    <string name="decrease_volume">http://132.207.89.35:80/superviseur/volume/diminuer/</string>
+    <string name="increase_volume">http://132.207.89.35:80/superviseur/volume/augmenter/</string>
+    <string name="get_volume">http://132.207.89.35:80/superviseur/volume</string>
+    <string name="mute">http://132.207.89.35:80/superviseur/volume/sourdine/activer</string>
+    <string name="unmute">http://132.207.89.35:80/superviseur/volume/sourdine/desactiver</string>
+    <string name="block_user">http://132.207.89.35:80/superviseur/bloquer</string>
+    <string name="unblock_user">http://132.207.89.35:80/superviseur/debloquer</string>
+    <string name="delete_music_admin">http://132.207.89.35:80/superviseur/chanson/</string>
+    <string name="reverse">http://132.207.89.35:80/superviseur/inversion</string>
+    <string name="logout_admin">http://132.207.89.35:80/superviseur/logout</string>
+    <string name="admin_password">http://132.207.89.35:80/superviseur/changement_mdp</string>
+    <string name="statistics_url">http://132.207.89.35:80/superviseur/statistiques</string>
+    <string name="GET">GET</string>
+    <string name="POST">POST</string>
+</resources>
+

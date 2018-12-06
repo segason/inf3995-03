@@ -1,0 +1,7 @@
+Équipe 3                            Commentaires
+Conformité de la remise   0.75/1    Il y a un autre dossier TP3 qui en plus contient un .vs qui est un répertoire de cache de Visual Studio qu'on ne versionne jamais (comme les .pycache en Python)
+Clarté                       3/3    
+Documentation                -/0    
+Qualité du code           6.75/7    Il faut éviter les new/delete à la main en C++; utilisez des pointeurs intelligents (std::unique_ptr ou std::shared_ptr)
+Fonctionnement               9/9    
+Total                     19.5/20    

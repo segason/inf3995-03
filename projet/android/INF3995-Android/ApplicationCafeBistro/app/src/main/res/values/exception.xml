@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_400">Votre requête est non valide</string>
+    <string name="error_401">Vous avez besoin de vous authentifier</string>
+    <string name="error_403">L\'accés vous a été refusé</string>
+    <string name="error_405">Vous ne pouvez pas supprimer cette chanson</string>
+    <string name="error_409">L\'une des chansons ne se trouve plus dans la file d\'attente</string>
+    <string name="error_413">La chanson est trop longue, file pleine ou limite atteinte</string>
+    <string name="error_415">Veuillez choisir un fichier mp3 valide</string>
+    <string name="error_500">Le serveur n\'est pas disponible pour l\'instant</string>
+
+    <integer name="number_400">400</integer>
+    <integer name="number_401">401</integer>
+    <integer name="number_403">403</integer>
+    <integer name="number_405">405</integer>
+    <integer name="number_409">409</integer>
+    <integer name="number_413">413</integer>
+    <integer name="number_415">415</integer>
+
+</resources>

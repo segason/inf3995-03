@@ -1,0 +1,49 @@
+GET
+
+curl -w'\n' -v -GET 'http://132.207.89.35:80/usager/identification'
+
+curl -w'\n' -v -GET 'http://192.168.2.48:8080/superviseur/usager'
+
+curl -w'\n' -v -GET 'http://10.0.2.15:8080/usager/identification?name=%7B%22nom%22%3A%22segason%22%2C%22MAC%22%3A%2252%3A54%3A00%3A12%3A34%3A56%22%2C%22ip%22%3A%2210.0.2.15%22%7D'
+
+curl -w'\n' -v -GET 'http://132.207.89.35:80/usager/file/5'
+
+curl -w'\n' -v -GET 'http://132.207.89.35:80/superviseur/file'
+
+curl -w'\n' -v -GET 'http://132.207.89.35:80/superviseur/volume'
+
+curl -w'\n' -v -GET 'http://132.207.89.35:80/superviseur/statistiques'
+
+curl -w'\n' -v -GET 'http://132.207.89.35:80/superviseur/listenoire'
+
+
+
+POST
+
+curl -d "id=5" -X POST 'http://132.207.89.35:80/usager/chanson/3'
+
+curl -d "une=5&autre=8" -X POST 'http://132.207.89.35:80/superviseur/inversion'
+
+curl -d "pc=12" -X POST 'http://132.207.89.35:80/superviseur/volume/augmenter/12'
+
+curl -d "pc=12" -X POST 'http://132.207.89.35:80/superviseur/volume/diminuer/12'
+
+curl -X POST 'http://132.207.89.35:80/superviseur/volume/sourdine/desactiver'
+
+curl -d "id=122.36.58.95&MAC=1:1:1:1:1:1&nom=test" -X POST 'http://132.207.89.35:80/superviseur/bloquer'
+
+curl -d "{\"mac\":\"24:19:1D:8E:2F:B0\", \"ip\": \"1.2.3.4\", \"name\": \"test\"}" -X POST 'http://192.168.2.48:8080/superviseur/debloquer'
+
+curl -d "usager=admin&mot_de_passe=soleil123" -X POST 'http://132.207.89.35:80/superviseur/login'
+
+curl -X POST 'http://132.207.89.35:80/superviseur/logout'
+
+curl -d "ancien=oldpassword&nouveau=newpassword" -X POST 'http://132.207.89.35:80/superviseur/changement_mdp'
+
+
+DELETE
+
+curl -X "DELETE" http://132.207.89.35:80/usager/chanson/1989657301/4
+
+curl -X "DELETE" http://132.207.89.35:80/superviseur/chanson/5
+

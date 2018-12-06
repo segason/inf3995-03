@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="third">33</integer>
+    <integer name="two_thirds">66</integer>
+
+</resources>

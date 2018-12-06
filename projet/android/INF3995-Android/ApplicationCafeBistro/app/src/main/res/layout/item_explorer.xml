@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/view_foreground_explorer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_explorer_item"
+        android:padding="@dimen/padd_10">
+
+        <ImageView
+            android:id="@+id/picture_music"
+            android:layout_width="@dimen/thumbnail"
+            android:layout_height="@dimen/thumbnail"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/activity_padding_horizontal"
+            android:contentDescription="music_icon"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_explorer_music_item" />
+
+        <TextView
+            android:id="@+id/file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
+            android:text="name"
+            android:textColor="@color/black_color"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</FrameLayout>

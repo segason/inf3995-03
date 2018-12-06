@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#171923</color>
+    <color name="colorPrimaryDark">#131628</color>
+    <color name="colorAccent">#ffe100</color>
+    <color name="lighterColorAccent">#292929</color>
+    <color name="colorError">#B50909</color>
+    <color name="colorSuccess">#0EA001</color>
+    <color name="bg_row_background">#FA315B</color>
+    <color name="my_music_in_list">#fdff92</color>
+    <color name="other_music_in_list">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_gray">#6c6c6c </color>
+    <color name="transparent">#c2ffffff</color>
+    <color name="light_orange">#ebd6ab</color>
+    <color name="primary_dark">#372833</color>
+    <color name="black_color">#000</color>
+    <color name="light_darker_orange">#c6c4c2</color>
+    <color name="lighterGrey">#a4a4a4</color>
+    <color name="admin_login_dialog">#232323</color>
+    <color name="statistics_orange">#ff6e35</color>
+    <color name="statistics_yellow">#ffc73b</color>
+    <color name="statistics_blue">#424b99</color>
+    <color name="statistics_green">#44c283</color>
+    <color name="colorSeekBar">#f4a70c</color>
+</resources>

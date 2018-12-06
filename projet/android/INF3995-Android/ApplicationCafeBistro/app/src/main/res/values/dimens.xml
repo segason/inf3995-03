@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="snackbar_icon_padding">1dp</dimen>
+    <dimen name="padd_10">10dp</dimen>
+    <dimen name="thumbnail">90dp</dimen>
+    <dimen name="activity_padding_horizontal">16dp</dimen>
+    <dimen name="ic_delete">30dp</dimen>
+    <dimen name="little_text">12sp</dimen>
+    <dimen name="medium_text">17sp</dimen>
+    <integer name="max_line_music_item">2</integer>
+</resources>

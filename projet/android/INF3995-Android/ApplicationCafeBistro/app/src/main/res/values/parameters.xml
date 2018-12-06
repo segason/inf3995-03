@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="param_title">\?title=</string>
+    <string name="message_parameter">message</string>
+    <string name="ip">ip</string>
+    <string name="mac">mac</string>
+    <string name="mac_capital_letters">MAC</string>
+    <string name="body">\?body=</string>
+</resources>

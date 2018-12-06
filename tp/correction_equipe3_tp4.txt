@@ -1,0 +1,7 @@
+Équipe 3					Commentaires
+Conformité de la remise		0.5	/1	Le TP est au bon endroit, mais il y a des fichiers qui trainent (TP4, TP4v2, save)
+Clarté				3	/3	
+Documentation			-	/0	
+Qualité du code			7	/7	
+Fonctionnement			8	/9	Gestion d'erreur incomplète
+Total				18.5	/20	

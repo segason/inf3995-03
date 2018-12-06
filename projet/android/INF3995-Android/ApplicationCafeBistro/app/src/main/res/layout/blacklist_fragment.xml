@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/blacklist_fragment"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/musical_background_playlist"
+    tools:context="applicationcafebistro.ca.polymtl.equipe3.client.applicationcafebistro.view.ListMusic.Admin.FragmentBlackList">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_black_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
+
+</android.support.design.widget.CoordinatorLayout>

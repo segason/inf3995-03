@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="identify_json">identificateur</string>
+    <string name="chansons_json">chansons</string>
+    <string name="users_json">users</string>
+    <string name="no_json">no</string>
+    <string name="title_json">titre</string>
+    <string name="artist_json">artiste</string>
+    <string name="duration_json">duree</string>
+    <string name="owner_json">proprietaire</string>
+    <string name="suggest_by_json">proposeePar</string>
+    <string name="user_id">IdProprietaire</string>
+    <string name="user_name">name</string>
+    <string name="user_nom">nom</string>
+    <string name="user_ip">ip</string>
+    <string name="user_mac">mac</string>
+    <string name="volume">volume</string>
+    <string name="sourdine">sourdine</string>
+    <string name="user_blocked">is_blocked</string>
+</resources>
